@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #191c20;
+    color: #abb2bf;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.editor-container {
+    display: flex;
+    flex-grow: 1;
+}
+
+#editor {
+    width: 50vw;
+    height: 100%;
+    border: 2px solid #61afef;
+    border-radius: 5px;
+    font-size: 1.2rem; /* Set the font size explicitly */
+}
+
+button {
+    padding: 12px;
+    cursor: pointer;
+    background-color: #61afef;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    margin: 10px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0073ff;
+    color: white;
+}
+
+.output-container {
+    flex-grow: 1;
+    padding: 10px;
+}
+
+
+pre {
+    background-color: #2f3133;
+    padding: 15px;
+    border-radius: 5px;
+    white-space: pre-wrap;
+    overflow-wrap: break-word;
+}
+
+@media screen and (max-width: 1200px) {
+    #editor {
+        width: 300%;
+    }
+
+    button {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #editor {
+        width: 300%;
+    }
+
+    button {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    #editor {
+        width: 300%;
+        font-size: 1rem; /* Adjust font size for smaller screens */
+    }
+
+    button {
+        width: 50%;
+    }
+}

@@ -1,4 +1,4 @@
-# Online Code Editor with HTML, CSS, JavaScript & Python 🖥️
+# Online Code Editor with HTML, CSS, JavaScript 🖥️
 
 An Online Code Editor built using HTML, CSS, and JavaScript that allows users to write, edit, and run code directly in their browser. This tool supports HTML, CSS, JavaScript, and Python. It provides a live HTML and CSS preview, making it easy to see changes in real-time. The editor also features syntax highlighting for a better coding experience.
 
